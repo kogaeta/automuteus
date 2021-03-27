@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>amongusdiscord</Name>
-  <Repository>denverquane/amongusdiscord</Repository>
-  <Registry>https://hub.docker.com/r/denverquane/amongusdiscord/</Registry>
+  <Repository>neont/automuteus</Repository>
+  <Registry>https://hub.docker.com/r/neont/automuteus/</Registry>
   <Network>br0</Network>
   <MyIP>10.0.1.19</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/denverquane/amongusdiscord/</Support>
+  <Support>https://hub.docker.com/r/neont/automuteus/</Support>
   <Project>https://github.com/denverquane/amongusdiscord</Project>
   <Overview>Discord Bot to harness Among Us game data, and automatically mute/unmute players during the course of the game!&#xD;
 &#xD;
