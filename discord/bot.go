@@ -115,7 +115,7 @@ func MakeAndStartBot(version, commit, botToken, url, emojiGuildID string, extraT
 	if listeningTo == "" {
 		prefix := os.Getenv("AUTOMUTEUS_GLOBAL_PREFIX")
 		if prefix == "" {
-			prefix = ".aux"
+			prefix = ".ua"
 		}
 
 		listeningTo = prefix + " help"

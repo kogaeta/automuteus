@@ -34,7 +34,7 @@ type GuildSettings struct {
 func MakeGuildSettings() *GuildSettings {
 	prefix := os.Getenv("AUTOMUTEUS_GLOBAL_PREFIX")
 	if prefix == "" {
-		prefix = ".aux"
+		prefix = ".ua"
 	}
 	return &GuildSettings{
 		CommandPrefix:            prefix,
